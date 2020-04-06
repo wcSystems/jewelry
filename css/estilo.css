@@ -1,0 +1,160 @@
+.center{
+	text-align:center;
+}
+
+.right{
+	text-align:right;
+}
+
+.left{
+	text-align:left;
+}
+
+.usr-card img{
+	width:50px;
+	height:50px;
+}
+
+.vertical-center{
+	vertical-align:middle !important;
+}
+
+.col-12{
+	width: 100%;
+}
+
+.popover-title{
+	text-align:center;
+}
+
+h5{
+	margin-bottom:2% !important;
+}
+
+.fc-day:hover{
+	background-color:#E4E4E4 !important;
+}
+
+.note-editor{
+	border: solid 1px #BDBDBD !important;
+	border-radius:0 !important;
+}
+
+.jcrop-active{
+	float:none !important;
+	margin:auto !important;
+}
+
+#dt_basic_filter{
+	padding:1%;
+	width:50%;
+	float:left;
+}
+
+#dt_basic_filter > label{
+	float:left;
+}
+
+.dt-buttons{
+	padding:1%;
+	width: 50%;
+    float: right;
+    text-align: right;
+}
+
+#dt_basic_info{
+	padding:1.4%;
+	width: 50%;
+    float: left;
+    
+}
+
+#dt_basic_paginate{
+	padding:1.4%;
+	width: 50%;
+    float: right;
+    text-align:right;
+}
+
+.table{
+	border-top: 1px solid rgba(0,0,0,.1) !important;
+	border-bottom: 1px solid rgba(0,0,0,.1) !important;
+}
+
+.dataTables_paginate > span >.paginate_button{
+    position: relative;
+    float: none;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #3276b1;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+}
+
+.buttons-columnVisibility{
+	width:100%;
+	
+}
+
+.dt-button-collection{
+    position: absolute;
+    right: 0;
+    z-index: 99;
+    top: 34% !important;
+    margin-top: -32px;
+    max-width: 10%;
+   
+    text-align: center;
+}
+
+.dataTables_paginate  >.paginate_button{
+    position: relative;
+    float: none;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #3276b1;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+    cursor:pointer;
+}
+
+.dataTables_paginate > span > .current{
+    z-index: 3;
+    color: #fff;
+    background-color: #3276b1;
+    border-color: #3276b1;
+    cursor: default;
+
+}
+
+.dataTables_paginate > span > a:hover{
+   z-index: 2;
+    color: #214e75;
+    background-color: #eee;
+    border-color: #ddd;
+
+}
+
+.dataTables_paginate > span > a{
+   cursor:pointer;
+
+}
+
+.dataTables_paginate > .disabled{
+   color: #999;
+    background-color: #fff;
+    border-color: #ddd;
+    cursor: not-allowed;
+
+}
+
+.nocaret {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+}
